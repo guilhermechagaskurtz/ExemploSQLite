@@ -1,0 +1,27 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Principal"
+    android:orientation="vertical"
+    >
+
+    <Button
+        android:id="@+id/btnCriaBanco"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:onClick="criarBancoClick"
+        android:text="Criar banco de dados" />
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Tela 1 - Manipulação por SQL"
+        android:id="@+id/button"
+        android:onClick="abreTela1Click"/>
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Tela 2 - Manipulação sem SQL"
+        android:id="@+id/button2"
+        android:onClick="abreTela2Click"/>
+</LinearLayout>

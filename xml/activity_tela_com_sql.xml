@@ -1,0 +1,76 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Manipulação com SQL"
+        android:id="@+id/textView"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/btnInserirComSQL"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:onClick="inserirComSQLClick"
+        android:text="Inserir com SQL" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="5dp"
+        android:background="#00FF00" />
+
+    <Button
+        android:id="@+id/btnAlterarComSQL"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:onClick="alterarComSQLClick"
+        android:text="Alterar com SQL" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="5dp"
+        android:background="#FF00FF" />
+
+    <Button
+        android:id="@+id/btnExcluirComSQL"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:onClick="excluirComSQLClick"
+        android:text="Excluir com SQL" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="5dp"
+        android:background="#FFFF00" />
+
+    <Button
+        android:id="@+id/btnBuscarComSQL"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:onClick="buscarComSQLClick"
+        android:text="Buscar todos os carros com SQL" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:onClick="buscarPeloNomeComSQLClick"
+        android:text="Buscar carro pelo nome com SQL" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:onClick="buscarPeloIDComSQLClick"
+        android:text="Buscar carro pelo ID com SQL" />
+
+    <EditText
+        android:id="@+id/editTextComSQL"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:ems="10"
+        android:gravity="top|left"
+        android:inputType="textMultiLine" />
+
+</LinearLayout>

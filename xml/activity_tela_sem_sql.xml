@@ -1,0 +1,70 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Manipulação sem SQL"
+        android:id="@+id/textView"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/btnInserirSemSQL"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:onClick="inserirSemSQLClick"
+        android:text="Inserir sem SQL" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="5dp"
+        android:background="#00FF00" />
+
+    <Button
+        android:id="@+id/btnAlterarSemSQL"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:onClick="alterarSemSQLClick"
+        android:text="Alterar sem SQL" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="5dp"
+        android:background="#FF00FF" />
+
+    <Button
+        android:id="@+id/btnExcluirSemSQL"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:onClick="excluirSemSQLClick"
+        android:text="Excluir sem SQL" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="5dp"
+        android:background="#FFFF00" />
+
+    <Button
+        android:id="@+id/btnBuscarSemSQL"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:onClick="buscarSemSQLClick"
+        android:text="Buscar sem SQL" />
+
+    <Button
+        android:id="@+id/btnBuscarTudoSemSQL"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:onClick="buscarTudoSemSQLClick"
+        android:text="Buscar tudo sem SQL" />
+    <EditText
+        android:id="@+id/editTextSemSQL"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:ems="10"
+        android:gravity="top|left"
+        android:inputType="textMultiLine" />
+
+</LinearLayout>
